@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+.pages {
+  display: flex;
+}
+.links {
+  display: flex;
+}
+.main {
+  background-color: red;
+}
+.footer {
+  background-color: blueviolet;
+}
