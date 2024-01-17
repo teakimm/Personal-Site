@@ -7,27 +7,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
   <title>Thomas Kim</title>
 </head>
 <body>
-  <div class="header">
+  <div class="header" id="header">
     <ul class="pages">
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
+      <a href="#header">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </ul>
     <ul class="links">
       <li>
-        <img class="gitHub" src="./assets/gitHub.png" alt="GitHub">
+        <a href="https://github.com/teakimm"><img class="gitHub" src="./assets/gitHub.png" alt="GitHub"></a>
       </li>
       <li>
-        <img class="linkedIn" src="./assets/linkedIn.png" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/thomas-k-8418a623b/"><img class="linkedIn" src="./assets/linkedIn.png" alt="LinkedIn"></a>
       </li>
     </ul>
   </div>
-  <button class="sticky">
-    <img src="./assets/return.png" alt="arrow">
-  </button>
+  <a href="#header">
+    <button class="button">
+      <img src="./assets/return.png" alt="arrow">
+    </button>
+  </a>
   <section class="home">
     <div class="name">
       <h1>Hi, I'm <span>Thomas Kim</span>.</h1>
@@ -39,12 +42,12 @@
       </svg>
     </div>
   </section>
-  <section class="about">
+  <section class="about" id="about">
     <div class="textContainer">
       <h1>About <span>Me</span></h1>
       <p>I'm from Chicago and am someone who is passionate about web development. I graduated from the University of Illinois Urbana-Champaign with a bachelors degree in Geographic Information Science (Winter 2020).
         Since graduating, I've found an interest in software engineering, and have built small web applications using JavaScript.</p>
-      <h3>Resume PDF</h3>
+      <a class="resume" href="https://drive.google.com/file/d/1Pqt_XvApZ5QUhtB1NU25ND_5_GTTTyEa/view?usp=sharing" target="blank">Link to Resume</a>
       <h2>Here are some of the projects I have made:</h2>
     </div>
     <div class="projectContainer">
@@ -65,8 +68,18 @@
       </svg>
     </div>
   </section>
-  <section class="contact">
+  <section class="contact" id="contact">
     <h1>Contact <span>Me</span></h1>
+    <div class="contactContainer">
+      <div class="email">
+        <img src="./assets/email.png" alt="email">
+        <h3>tkimm156@gmail.com</h3>
+      </div>
+      <div class="phone">
+        <img src="./assets/phone.png" alt="phone">
+        <h3>(630)999-7776</h3>
+      </div>
+    </div>
   </section>
 </body>
 </html>

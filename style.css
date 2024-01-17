@@ -103,18 +103,21 @@ section {
 .wave2 .shape-fill {
   fill: #1D2125;
 }
-.sticky {
+.button {
   position: fixed;
   bottom: 0;
   right: 0;
   z-index: 1;
   margin: 3rem;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   border-radius: 5rem;
   height: 3rem;
   width: 3rem;
+}
+button:hover {
+  cursor: pointer;
 }
 button {
   background: white;
@@ -146,7 +149,7 @@ span {
   margin: 20px;
   text-align: justify;
 }
-.textContainer h3 {
+.textContainer a {
   margin-bottom: 50px;
 }
 .projectContainer {
@@ -170,4 +173,21 @@ span {
 }
 .contact h1 {
   font-size: 50px;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.resume {
+  text-decoration: underline;
+  color: white;
+}
+.email, .phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contactContainer img {
+  width: 25px;
 }
