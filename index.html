@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Roboto&display=swap" rel="stylesheet">
   <title>Thomas Kim</title>
 </head>
 <body>
@@ -15,40 +18,55 @@
     </ul>
     <ul class="links">
       <li>
-        <img src="./assets/gitHub.png" alt="GitHub">
+        <img class="gitHub" src="./assets/gitHub.png" alt="GitHub">
       </li>
       <li>
-        <img src="./assets/linkedIn.png" alt="LinkedIn">
+        <img class="linkedIn" src="./assets/linkedIn.png" alt="LinkedIn">
       </li>
     </ul>
   </div>
   <button class="sticky">
     <img src="./assets/return.png" alt="arrow">
   </button>
-  <section class="default">
-    <h1>header</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident suscipit, iusto qui perspiciatis repudiandae rerum nisi ab aperiam minima error quibusdam voluptatem, soluta debitis, reiciendis esse ipsam architecto quaerat non.</p>
-    <div class="wave">
+  <section class="home">
+    <div class="name">
+      <h1>Hi, I'm <span>Thomas Kim</span>.</h1>
+      <h1>I'm a software developer.</h1>
+    </div>
+    <div class="wave1">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
       </svg>
     </div>
   </section>
-  <section class="blue">
-    <h1>header</h1>
-    <p>Necessitatibus assumenda nihil labore recusandae nam quasi distinctio, exercitationem quibusdam accusamus, porro id tempore illum tenetur debitis? Consequuntur soluta quo pariatur, perferendis voluptatibus, consequatur fugiat ex, quibusdam nobis ipsa nesciunt?</p>
-    <div class="custom-shape-divider-bottom-1705450218">
+  <section class="about">
+    <div class="textContainer">
+      <h1>About <span>Me</span></h1>
+      <p>I'm from Chicago and am someone who is passionate about web development. I graduated from the University of Illinois Urbana-Champaign with a bachelors degree in Geographic Information Science (Winter 2020).
+        Since graduating, I've found an interest in software engineering, and have built small web applications using JavaScript.</p>
+      <h3>Resume PDF</h3>
+      <h2>Here are some of the projects I have made:</h2>
+    </div>
+    <div class="projectContainer">
+      <div class="project">
+        <h2>Calculator.exe</h2>
+        <img src="./assets/calc.png" alt="calculator">
+        <p>A retro-styled calculator application made with html, css, and JavaScript that works as a calculator allowing mouse and keyboard inputs.</p>
+      </div>
+      <div class="project">
+        <h2>Div-inci</h2>
+        <img src="./assets/divinci.png" alt="div-inci">
+        <p>A drawing application using html divs that can be colored when clicked on. Offers multiple features such as canvas resolution, an eraser, a toggle on/off grid, and a random color selector.</p>
+      </div>
+    </div>
+    <div class="wave2">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
       </svg>
     </div>
   </section>
-  <section class="gray">
-    <h1>header</h1>
-    <p>Sequi vel odit fuga omnis praesentium odio ex illo, quo dolorum, numquam, totam veritatis eligendi dicta ab dolore iste magni dignissimos ut modi deserunt. Quia distinctio excepturi dolor autem tempora.</p>
+  <section class="contact">
+    <h1>Contact <span>Me</span></h1>
   </section>
-  <div class="footer">
-    <h1>test</h1>
-  </div>
 </body>
 </html>
